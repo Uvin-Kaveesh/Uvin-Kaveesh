@@ -1,0 +1,84 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Professional GitHub Profile Banner</title>
+  <desc id="desc">A compact animated banner for a GitHub profile README.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.48" stop-color="#172033"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="line" x1="160" y1="70" x2="1040" y2="292" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.17 0 0 0 0 0.78 0 0 0 0 0.74 0 0 0 0.34 0"/>
+    </filter>
+    <style>
+      .fade-a { animation: fadeA 5.5s ease-in-out infinite; }
+      .fade-b { animation: fadeB 6.5s ease-in-out infinite; }
+      .float { animation: float 7s ease-in-out infinite; }
+      .dash { stroke-dasharray: 8 16; animation: dash 16s linear infinite; }
+      .blink { animation: blink 2.8s ease-in-out infinite; }
+      @keyframes fadeA {
+        0%, 100% { opacity: .42; }
+        50% { opacity: .9; }
+      }
+      @keyframes fadeB {
+        0%, 100% { opacity: .18; }
+        50% { opacity: .55; }
+      }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -240; }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: .35; }
+        50% { opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
+  <circle cx="1000" cy="88" r="96" fill="#22D3EE" opacity="0.1" filter="url(#softGlow)" class="fade-a"/>
+  <circle cx="210" cy="292" r="118" fill="#2DD4BF" opacity="0.08" filter="url(#softGlow)" class="fade-b"/>
+
+  <path d="M150 262 C310 146 458 338 616 205 C746 96 862 150 1042 70" stroke="url(#line)" stroke-width="2" class="dash"/>
+  <path d="M160 92 H1040" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <path d="M160 292 H1040" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <g class="float">
+    <rect x="820" y="130" width="210" height="96" rx="14" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <circle cx="852" cy="164" r="8" fill="#2DD4BF" class="blink"/>
+    <rect x="875" y="157" width="112" height="9" rx="4.5" fill="#E5E7EB" fill-opacity="0.52"/>
+    <rect x="852" y="186" width="148" height="8" rx="4" fill="#93C5FD" fill-opacity="0.32"/>
+    <rect x="852" y="206" width="108" height="8" rx="4" fill="#5EEAD4" fill-opacity="0.28"/>
+  </g>
+
+  <g transform="translate(166 108)">
+    <text x="0" y="0" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="0.4">
+      HELLO, I AM
+    </text>
+    <text x="0" y="48" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">
+      Your Name
+    </text>
+    <text x="0" y="84" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">
+      Full Stack Developer | UI Designer | Problem Solver
+    </text>
+    <text x="0" y="124" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">
+      Building clean interfaces, smart systems, and reliable digital experiences.
+    </text>
+  </g>
+
+  <g transform="translate(166 260)">
+    <rect x="0" y="0" width="142" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="18" y="22" fill="#E0F2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Open to work</text>
+    <rect x="158" y="0" width="170" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="176" y="22" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Available for projects</text>
+  </g>
+</svg>
