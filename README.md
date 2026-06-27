@@ -1,9 +1,36 @@
-<h1 align="center">Hi 👋, I'm Uvin Kaveesh</h1>
-
-<h3 align="center">
-Computer System Engineering Student | Professional Photographer
-</h3>
+<!-- Profile README Banner -->
+<!-- 1. Add profile-banner.svg to your GitHub profile repository. -->
+<!-- 2. Replace the placeholder links and text below with your real details. -->
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=28&pause=1000&color=3FA9F5&center=true&vCenter=true&width=900&lines=Welcome+to+my+GitHub!;Computer+System+Engineering+Student;Professional+Photographer;Creative+Designer;Always+Learning+New+Things..." />
+  <img src="./profile-banner.svg" alt="Professional GitHub profile banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="https://www.facebook.com/YOUR_FACEBOOK_USERNAME">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
+  <a href="https://your-main-website.com">
+    <img src="https://img.shields.io/badge/Website-111827?style=flat&logo=googlechrome&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://your-portfolio-website.com">
+    <img src="https://img.shields.io/badge/Portfolio-0F766E?style=flat&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>
+    Full Stack Developer | UI Designer | Problem Solver<br />
+    Building clean interfaces, smart systems, and reliable digital experiences.
+  </sub>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat&color=0F766E&label=Profile%20Views" alt="Profile views" />
 </p>
