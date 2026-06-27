@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+  <a href="[https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME](https://www.linkedin.com/in/uvin-kaveesh?utm_source=share_via&utm_content=profile&utm_medium=member_android)">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME">
@@ -26,7 +26,7 @@
 
 <p align="center">
   <sub>
-    Full Stack Developer | UI Designer | Problem Solver<br />
+    Computer System Engineer(UG) | Full Stack Developer | UI Designer | Photographer<br />
     Building clean interfaces, smart systems, and reliable digital experiences.
   </sub>
 </p>
