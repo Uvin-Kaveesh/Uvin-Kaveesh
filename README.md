@@ -7,27 +7,31 @@
 </p>
 
 <p align="center">
-  <a href="[https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME](https://www.linkedin.com/in/uvin-kaveesh?utm_source=share_via&utm_content=profile&utm_medium=member_android)">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" title="LinkedIn">
+    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="30" height="30" />
   </a>
-  <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" />
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME" title="Instagram">
+    <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram" width="30" height="30" />
   </a>
-  <a href="https://www.facebook.com/YOUR_FACEBOOK_USERNAME">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white" alt="Facebook" />
+  &nbsp;&nbsp;
+  <a href="https://www.facebook.com/YOUR_FACEBOOK_USERNAME" title="Facebook">
+    <img src="https://cdn.simpleicons.org/facebook/1877F2" alt="Facebook" width="30" height="30" />
   </a>
-  <a href="https://your-main-website.com">
-    <img src="https://img.shields.io/badge/Website-111827?style=flat&logo=googlechrome&logoColor=white" alt="Website" />
+  &nbsp;&nbsp;
+  <a href="https://your-main-website.com" title="Website">
+    <img src="https://cdn.simpleicons.org/googlechrome/0F766E" alt="Website" width="30" height="30" />
   </a>
-  <a href="https://your-portfolio-website.com">
-    <img src="https://img.shields.io/badge/Portfolio-0F766E?style=flat&logo=vercel&logoColor=white" alt="Portfolio" />
+  &nbsp;&nbsp;
+  <a href="https://your-portfolio-website.com" title="Portfolio">
+    <img src="https://cdn.simpleicons.org/vercel/111827" alt="Portfolio" width="30" height="30" />
   </a>
 </p>
 
 <p align="center">
   <sub>
-    Computer System Engineer(UG) | Full Stack Developer | UI Designer | Photographer<br />
-    Building clean interfaces, smart systems, and reliable digital experiences.
+    Computer Systems Engineering Undergraduate | Photographer<br />
+    Developer-minded engineer, photographer, and visual storyteller.
   </sub>
 </p>
 
