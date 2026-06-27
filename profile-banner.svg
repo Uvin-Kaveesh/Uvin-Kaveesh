@@ -60,25 +60,37 @@
     <rect x="852" y="206" width="108" height="8" rx="4" fill="#5EEAD4" fill-opacity="0.28"/>
   </g>
 
+  <g transform="translate(812 244)">
+    <circle cx="24" cy="24" r="18" fill="#0A66C2"/>
+    <text x="24" y="30" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">in</text>
+    <circle cx="76" cy="24" r="18" fill="#E4405F"/>
+    <circle cx="76" cy="24" r="8" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="84" cy="16" r="2.5" fill="#FFFFFF"/>
+    <circle cx="128" cy="24" r="18" fill="#1877F2"/>
+    <text x="128" y="32" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">f</text>
+    <circle cx="180" cy="24" r="18" fill="#111827" stroke="#5EEAD4" stroke-width="1.5"/>
+    <path d="M169 24h22M180 13c5 6 5 16 0 22M180 13c-5 6-5 16 0 22" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
   <g transform="translate(166 108)">
     <text x="0" y="0" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="0.4">
       HELLO, I AM
     </text>
     <text x="0" y="48" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">
-      Your Name
+      Uvin Kaveesh
     </text>
     <text x="0" y="84" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="500">
-      Full Stack Developer | UI Designer | Problem Solver
+      Computer Systems Engineering Undergraduate
     </text>
     <text x="0" y="124" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15">
-      Building clean interfaces, smart systems, and reliable digital experiences.
+      Developer-minded engineer, photographer, and visual storyteller.
     </text>
   </g>
 
   <g transform="translate(166 260)">
-    <rect x="0" y="0" width="142" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <text x="18" y="22" fill="#E0F2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Open to work</text>
-    <rect x="158" y="0" width="170" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <text x="176" y="22" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Available for projects</text>
+    <rect x="0" y="0" width="176" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="18" y="22" fill="#E0F2FE" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Engineering Student</text>
+    <rect x="192" y="0" width="132" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.075" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="210" y="22" fill="#CCFBF1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="600">Photographer</text>
   </g>
 </svg>
