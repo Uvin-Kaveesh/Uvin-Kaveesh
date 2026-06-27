@@ -36,5 +36,5 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat&color=0F766E&label=Profile%20Views" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=Uvin-Kaveesh&style=flat&color=0F766E&label=Profile%20Views" alt="Profile views" />
 </p>
