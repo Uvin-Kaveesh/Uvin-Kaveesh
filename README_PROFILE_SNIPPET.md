@@ -1,6 +1,6 @@
 <!-- Profile README Banner -->
-<!-- 1. Add profile-banner.svg to your GitHub profile repository. -->
-<!-- 2. Replace the placeholder links and text below with your real details. -->
+<!-- 1. Add profile-banner.svg and the assets folder to your GitHub profile repository. -->
+<!-- 2. Replace the placeholder links below with your real details. -->
 
 <p align="center">
   <img src="./profile-banner.svg" alt="Professional GitHub profile banner" width="100%" />
@@ -8,23 +8,23 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" title="LinkedIn">
-    <img src="https://cdn.simpleicons.org/linkedin/0A66C2" alt="LinkedIn" width="30" height="30" />
+    <img src="./assets/linkedin.svg" alt="LinkedIn" width="32" height="32" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME" title="Instagram">
-    <img src="https://cdn.simpleicons.org/instagram/E4405F" alt="Instagram" width="30" height="30" />
+    <img src="./assets/instagram.svg" alt="Instagram" width="32" height="32" />
   </a>
   &nbsp;&nbsp;
   <a href="https://www.facebook.com/YOUR_FACEBOOK_USERNAME" title="Facebook">
-    <img src="https://cdn.simpleicons.org/facebook/1877F2" alt="Facebook" width="30" height="30" />
+    <img src="./assets/facebook.svg" alt="Facebook" width="32" height="32" />
   </a>
   &nbsp;&nbsp;
   <a href="https://your-main-website.com" title="Website">
-    <img src="https://cdn.simpleicons.org/googlechrome/0F766E" alt="Website" width="30" height="30" />
+    <img src="./assets/website.svg" alt="Website" width="32" height="32" />
   </a>
   &nbsp;&nbsp;
   <a href="https://your-portfolio-website.com" title="Portfolio">
-    <img src="https://cdn.simpleicons.org/vercel/111827" alt="Portfolio" width="30" height="30" />
+    <img src="./assets/portfolio.svg" alt="Portfolio" width="32" height="32" />
   </a>
 </p>
 

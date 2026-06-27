@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="LinkedIn">
+  <rect x="6" y="6" width="52" height="52" rx="16" fill="#0A66C2"/>
+  <path d="M22.3 27.3H15.9V48H22.3V27.3Z" fill="white"/>
+  <path d="M19.1 24.5C21.2 24.5 22.8 22.9 22.8 20.9C22.8 18.9 21.2 17.3 19.1 17.3C17.1 17.3 15.5 18.9 15.5 20.9C15.5 22.9 17.1 24.5 19.1 24.5Z" fill="white"/>
+  <path d="M32.5 37.1C32.5 34.2 33.9 32.5 36.2 32.5C38.3 32.5 39.3 34 39.3 37.1V48H45.7V35.8C45.7 30 42.6 26.8 37.4 26.8C34.9 26.8 33.1 28.1 32.2 29.7H32.1V27.3H26V48H32.5V37.1Z" fill="white"/>
+</svg>
