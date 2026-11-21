@@ -36,6 +36,7 @@ Click a moving preview to open its project repository. The CSE AGM preview is an
 <p align="center">
   <a href="https://github.com/Uvin-Kaveesh/PAPI-Based-Automated-Flight-Landing-System"><img src="./assets/project-previews/papi.gif" alt="PAPI Landing System animated project preview" width="70%" /></a>
 </p>
+
 ## Tools and technologies
 
 **Programming and web:** Java, JavaScript, TypeScript, HTML, CSS, Spring Boot, REST APIs  
