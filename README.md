@@ -6,6 +6,12 @@
   <a href="https://www.linkedin.com/in/uvin-kaveesh" title="LinkedIn"><img src="./assets/linkedin.svg" alt="LinkedIn" width="32" height="32" /></a>
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/uvin_kaveesh" title="Instagram"><img src="./assets/instagram.svg" alt="Instagram" width="32" height="32" /></a>
+  &nbsp;&nbsp;
+  <img src="./assets/facebook.svg" alt="Facebook link coming soon" title="Facebook link coming soon" width="32" height="32" />
+  &nbsp;&nbsp;
+  <img src="./assets/website.svg" alt="Website link coming soon" title="Website link coming soon" width="32" height="32" />
+  &nbsp;&nbsp;
+  <img src="./assets/portfolio.svg" alt="Portfolio link coming soon" title="Portfolio link coming soon" width="32" height="32" />
 </p>
 
 ## Featured projects
