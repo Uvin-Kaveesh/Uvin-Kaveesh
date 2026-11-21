@@ -19,22 +19,22 @@
 Click a moving preview to open its project repository. The CSE AGM preview is an illustration; the other previews use project images.
 
 <p align="center">
-  <a href="https://github.com/Uvin-Kaveesh/LeoLoom"><img src="./assets/project-previews/leoloom.gif" alt="LeoLoom animated project preview" width="48%" /></a>
-  <a href="https://github.com/Uvin-Kaveesh/Digital_Thermometer"><img src="./assets/project-previews/thermometer.gif" alt="Digital Thermometer animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/LeoLoom"><img src="./assets/project-previews/leoloom-smooth.gif" alt="LeoLoom animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/Digital_Thermometer"><img src="./assets/project-previews/thermometer-smooth.gif" alt="Digital Thermometer animated project preview" width="48%" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Uvin-Kaveesh/SignalForge"><img src="./assets/project-previews/signalforge.gif" alt="SignalForge animated project preview" width="48%" /></a>
-  <a href="https://github.com/Uvin-Kaveesh/CSE-AGM"><img src="./assets/project-previews/cse_agm.gif" alt="CSE AGM (illustrated preview) animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/SignalForge"><img src="./assets/project-previews/signalforge-smooth.gif" alt="SignalForge animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/CSE-AGM"><img src="./assets/project-previews/cse_agm-smooth.gif" alt="CSE AGM (illustrated preview) animated project preview" width="48%" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Uvin-Kaveesh/BCD-Arithmetic-Mini-Processor"><img src="./assets/project-previews/bcd2.gif" alt="BCD Arithmetic Mini Processor animated project preview" width="48%" /></a>
-  <a href="https://github.com/Uvin-Kaveesh/CSE-Drone-Project"><img src="./assets/project-previews/drone.gif" alt="CSE Drone Project animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/BCD-Arithmetic-Mini-Processor"><img src="./assets/project-previews/bcd-smooth.gif" alt="BCD Arithmetic Mini Processor animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/CSE-Drone-Project"><img src="./assets/project-previews/drone-smooth.gif" alt="CSE Drone Project animated project preview" width="48%" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Uvin-Kaveesh/PAPI-Based-Automated-Flight-Landing-System"><img src="./assets/project-previews/papi.gif" alt="PAPI Landing System animated project preview" width="70%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/PAPI-Based-Automated-Flight-Landing-System"><img src="./assets/project-previews/papi-smooth.gif" alt="PAPI Landing System animated project preview" width="70%" /></a>
 </p>
 
 ## Tools and technologies
