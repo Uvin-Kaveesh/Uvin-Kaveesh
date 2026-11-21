@@ -29,7 +29,7 @@ Click a moving preview to open its project repository. The CSE AGM preview is an
 </p>
 
 <p align="center">
-  <a href="https://github.com/Uvin-Kaveesh/BCD-Arithmetic-Mini-Processor"><img src="./assets/project-previews/bcd.gif?v=2" alt="BCD Arithmetic Mini Processor animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/BCD-Arithmetic-Mini-Processor"><img src="./assets/project-previews/bcd2.gif" alt="BCD Arithmetic Mini Processor animated project preview" width="48%" /></a>
   <a href="https://github.com/Uvin-Kaveesh/CSE-Drone-Project"><img src="./assets/project-previews/drone.gif" alt="CSE Drone Project animated project preview" width="48%" /></a>
 </p>
 
