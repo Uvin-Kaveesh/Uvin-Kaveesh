@@ -16,7 +16,9 @@
 
 ## Featured projects
 
-Click a project card to open its repository. [Choose which cards appear](https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1). The CSE AGM preview is an illustration.
+<p align="right">
+  <a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Manage featured projects"><img src="./assets/featured-selector.svg" alt="Manage featured projects" width="38" height="38" /></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/Uvin-Kaveesh/LeoLoom"><img src="./assets/project-previews/leoloom-smooth.gif" alt="LeoLoom project preview" width="48%" /></a>

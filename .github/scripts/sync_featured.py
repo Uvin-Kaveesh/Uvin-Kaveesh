@@ -118,7 +118,11 @@ def render_cards(selected, repos, root):
         alt = html.escape(f"{name} project preview", quote=True)
         cards.append(f'  <a href="{url}"><img src="{source}" alt="{alt}" width="48%" /></a>')
     rows = ["<p align=\"center\">\n" + "\n".join(cards[i:i+2]) + "\n</p>" for i in range(0, len(cards), 2)]
-    intro = "## Featured projects\n\nClick a project card to open its repository. [Choose which cards appear](https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1). The CSE AGM preview is an illustration."
+    intro = ('## Featured projects\n\n'
+             '<p align="right">\n'
+             '  <a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Manage featured projects">'
+             '<img src="./assets/featured-selector.svg" alt="Manage featured projects" width="38" height="38" /></a>\n'
+             '</p>')
     return intro + ("\n\n" + "\n\n".join(rows) if rows else "\n\nNo projects selected yet.") + "\n\n"
 
 
