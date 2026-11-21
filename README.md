@@ -24,16 +24,12 @@ Click a project card to open its repository. [Choose which cards appear](https:/
 </p>
 
 <p align="center">
-  <a href="https://github.com/Uvin-Kaveesh/SignalForge"><img src="./assets/project-previews/signalforge-smooth.gif" alt="SignalForge project preview" width="48%" /></a>
   <a href="https://github.com/Uvin-Kaveesh/CSE-AGM"><img src="./assets/project-previews/cse_agm-smooth.gif" alt="CSE-AGM project preview" width="48%" /></a>
-</p>
-
-<p align="center">
   <a href="https://github.com/Uvin-Kaveesh/BCD-Arithmetic-Mini-Processor"><img src="./assets/project-previews/bcd-smooth.gif" alt="BCD-Arithmetic-Mini-Processor project preview" width="48%" /></a>
-  <a href="https://github.com/Uvin-Kaveesh/CSE-Drone-Project"><img src="./assets/project-previews/drone-smooth.gif" alt="CSE-Drone-Project project preview" width="48%" /></a>
 </p>
 
 <p align="center">
+  <a href="https://github.com/Uvin-Kaveesh/CSE-Drone-Project"><img src="./assets/project-previews/drone-smooth.gif" alt="CSE-Drone-Project project preview" width="48%" /></a>
   <a href="https://github.com/Uvin-Kaveesh/PAPI-Based-Automated-Flight-Landing-System"><img src="./assets/project-previews/papi-smooth.gif" alt="PAPI-Based-Automated-Flight-Landing-System project preview" width="48%" /></a>
 </p>
 
