@@ -7,25 +7,15 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" title="LinkedIn">
-    <img src="./assets/linkedin.svg" alt="LinkedIn" width="32" height="32" />
-  </a>
+  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME" title="LinkedIn"><img src="./assets/linkedin.svg" alt="LinkedIn" width="32" height="32" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME" title="Instagram">
-    <img src="./assets/instagram.svg" alt="Instagram" width="32" height="32" />
-  </a>
+  <a href="https://www.instagram.com/YOUR_INSTAGRAM_USERNAME" title="Instagram"><img src="./assets/instagram.svg" alt="Instagram" width="32" height="32" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.facebook.com/YOUR_FACEBOOK_USERNAME" title="Facebook">
-    <img src="./assets/facebook.svg" alt="Facebook" width="32" height="32" />
-  </a>
+  <a href="https://www.facebook.com/YOUR_FACEBOOK_USERNAME" title="Facebook"><img src="./assets/facebook.svg" alt="Facebook" width="32" height="32" /></a>
   &nbsp;&nbsp;
-  <a href="https://your-main-website.com" title="Website">
-    <img src="./assets/website.svg" alt="Website" width="32" height="32" />
-  </a>
+  <a href="https://your-main-website.com" title="Website"><img src="./assets/website.svg" alt="Website" width="32" height="32" /></a>
   &nbsp;&nbsp;
-  <a href="https://your-portfolio-website.com" title="Portfolio">
-    <img src="./assets/portfolio.svg" alt="Portfolio" width="32" height="32" />
-  </a>
+  <a href="https://your-portfolio-website.com" title="Portfolio"><img src="./assets/portfolio.svg" alt="Portfolio" width="32" height="32" /></a>
 </p>
 
 <p align="center">
