@@ -1,0 +1,38 @@
+name: Sync featured project cards
+
+on:
+  issues:
+    types: [edited]
+  schedule:
+    - cron: "17 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: featured-project-cards
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.event_name != 'issues' || github.event.issue.number == 1
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Update selector and README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/sync_featured.py
+      - name: Commit changed cards
+        run: |
+          mkdir -p assets/project-previews/generated
+          git add README.md assets/project-previews/generated
+          if ! git diff --cached --quiet; then
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Sync selected featured project cards'
+            git push
+          fi
+
