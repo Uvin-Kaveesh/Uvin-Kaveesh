@@ -16,13 +16,26 @@
 
 ## Featured projects
 
-| Project | What it shows |
-| --- | --- |
-| [LeoLoom](https://github.com/Uvin-Kaveesh/LeoLoom) | Digital secretary portal for planning service projects, coordinating members, tracking progress, and organizing reports. |
-| [Digital Thermometer](https://github.com/Uvin-Kaveesh/Digital_Thermometer) | LM35 and ICL7107 temperature display documented with Proteus simulation, PCB design, and a breadboard prototype. |
-| [SignalForge](https://github.com/Uvin-Kaveesh/SignalForge) | Analog signal conditioning project with a BJT amplifier, RC filters, and an interactive frequency response explorer. |
-| [CSE AGM](https://github.com/Uvin-Kaveesh/CSE-AGM) | Interactive AGM lamp ceremony website with guest media and shared event configuration. |
+Click a moving preview to open its project repository. The CSE AGM preview is an illustration; the other previews use project images.
 
+<p align="center">
+  <a href="https://github.com/Uvin-Kaveesh/LeoLoom"><img src="./assets/project-previews/leoloom.gif" alt="LeoLoom animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/Digital_Thermometer"><img src="./assets/project-previews/thermometer.gif" alt="Digital Thermometer animated project preview" width="48%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Uvin-Kaveesh/SignalForge"><img src="./assets/project-previews/signalforge.gif" alt="SignalForge animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/CSE-AGM"><img src="./assets/project-previews/cse_agm.gif" alt="CSE AGM (illustrated preview) animated project preview" width="48%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Uvin-Kaveesh/BCD-Arithmetic-Mini-Processor"><img src="./assets/project-previews/bcd.gif" alt="BCD Arithmetic Mini Processor animated project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/CSE-Drone-Project"><img src="./assets/project-previews/drone.gif" alt="CSE Drone Project animated project preview" width="48%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Uvin-Kaveesh/PAPI-Based-Automated-Flight-Landing-System"><img src="./assets/project-previews/papi.gif" alt="PAPI Landing System animated project preview" width="70%" /></a>
+</p>
 ## Tools and technologies
 
 **Programming and web:** Java, JavaScript, TypeScript, HTML, CSS, Spring Boot, REST APIs  
