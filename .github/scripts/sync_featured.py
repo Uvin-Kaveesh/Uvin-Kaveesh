@@ -120,7 +120,7 @@ def render_cards(selected, repos, root):
     rows = ["<p align=\"center\">\n" + "\n".join(cards[i:i+2]) + "\n</p>" for i in range(0, len(cards), 2)]
     intro = ('## Featured projects '
              '<a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Manage featured projects">'
-             '<img src="./assets/featured-selector.svg" alt="Manage featured projects" width="10" height="10" /></a>')
+             '<img src="./assets/selector-dot.svg" alt="Manage featured projects" width="10" height="10" /></a>')
     return intro + ("\n\n" + "\n\n".join(rows) if rows else "\n\nNo projects selected yet.") + "\n\n"
 
 
