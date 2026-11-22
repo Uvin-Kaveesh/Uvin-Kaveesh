@@ -13,10 +13,13 @@ from pathlib import Path
 
 
 OWNER = "Uvin-Kaveesh"
+JOINT_OWNER = "Nexus-Systems-Lab"
 PROFILE_REPO = f"{OWNER}/{OWNER}"
 ISSUE_NUMBER = 1
 START = "<!-- featured-project-selector:start -->"
 END = "<!-- featured-project-selector:end -->"
+JOINT_START = "<!-- collaborative-project-selector:start -->"
+JOINT_END = "<!-- collaborative-project-selector:end -->"
 CHECKBOX = re.compile(r"^- \[([ xX])\] `([A-Za-z0-9_.-]+)`$", re.MULTILINE)
 CARD_ASSETS = {
     "LeoLoom": "leoloom-smooth.gif",
@@ -46,13 +49,13 @@ def api(path, method="GET", data=None):
         return json.load(response)
 
 
-def public_repos():
+def public_repos(owner):
     repos = {}
     page = 1
     while True:
-        batch = api(f"/users/{OWNER}/repos?type=owner&per_page=100&page={page}")
+        batch = api(f"/users/{owner}/repos?type=owner&per_page=100&page={page}")
         for repo in batch:
-            if repo["name"] != OWNER and not repo["private"] and not repo["fork"] and not repo["archived"]:
+            if repo["name"] != owner and not repo["private"] and not repo["fork"] and not repo["archived"]:
                 repos[repo["name"]] = repo
         if len(batch) < 100:
             break
@@ -60,12 +63,12 @@ def public_repos():
     return repos
 
 
-def reconcile_issue(body, repos):
-    if body.count(START) != 1 or body.count(END) != 1:
+def reconcile_issue(body, repos, start, end):
+    if body.count(start) != 1 or body.count(end) != 1:
         raise ValueError("Selector issue markers are missing or duplicated")
-    before, tail = body.split(START, 1)
-    _, after = tail.split(END, 1)
-    current = [(name, mark.lower() == "x") for mark, name in CHECKBOX.findall(tail.split(END, 1)[0])]
+    before, tail = body.split(start, 1)
+    _, after = tail.split(end, 1)
+    current = [(name, mark.lower() == "x") for mark, name in CHECKBOX.findall(tail.split(end, 1)[0])]
     seen = set()
     items = []
     for name, checked in current:
@@ -74,7 +77,7 @@ def reconcile_issue(body, repos):
             seen.add(name)
     items.extend((name, False) for name in sorted(repos, key=str.casefold) if name not in seen)
     checklist = "\n".join(f"- [{'x' if checked else ' '}] `{name}`" for name, checked in items)
-    updated = before + START + "\n" + checklist + "\n" + END + after
+    updated = before + start + "\n" + checklist + "\n" + end + after
     return updated, [name for name, checked in items if checked]
 
 
@@ -99,7 +102,7 @@ def generic_svg(repo):
 </svg>'''
 
 
-def render_cards(selected, repos, root):
+def render_cards(selected, repos, root, owner):
     previews = root / "assets" / "project-previews"
     generated = previews / "generated"
     cards = []
@@ -111,16 +114,17 @@ def render_cards(selected, repos, root):
             source = f"./assets/project-previews/{asset}"
         else:
             generated.mkdir(parents=True, exist_ok=True)
-            asset = f"{name}.svg"
+            asset = f"{owner}-{name}.svg"
             (generated / asset).write_text(generic_svg(repos[name]), encoding="utf-8")
             source = f"./assets/project-previews/generated/{asset}"
-        url = f"https://github.com/{OWNER}/{name}"
+        url = f"https://github.com/{owner}/{name}"
         alt = html.escape(f"{name} project preview", quote=True)
         cards.append(f'  <a href="{url}"><img src="{source}" alt="{alt}" width="48%" /></a>')
     rows = ["<p align=\"center\">\n" + "\n".join(cards[i:i+2]) + "\n</p>" for i in range(0, len(cards), 2)]
-    intro = ('## Featured projects '
-             '<a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Manage featured projects">'
-             '<img src="./assets/selector-dot.svg" alt="Manage featured projects" width="10" height="10" /></a>')
+    heading = "## Featured projects" if owner == OWNER else "### Collaborative projects"
+    intro = (heading + ' '
+             '<a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Choose project cards">'
+             '<img src="./assets/selector-dot.svg" alt="Choose project cards" width="10" height="10" /></a>')
     return intro + ("\n\n" + "\n\n".join(rows) if rows else "") + "\n\n"
 
 
@@ -132,17 +136,22 @@ def replace_featured(readme, section):
 
 def main():
     root = Path(__file__).resolve().parents[2]
-    repos = public_repos()
+    repos = public_repos(OWNER)
+    joint_repos = public_repos(JOINT_OWNER)
     issue = api(f"/repos/{PROFILE_REPO}/issues/{ISSUE_NUMBER}")
-    updated_issue, selected = reconcile_issue(issue["body"], repos)
+    updated_issue, selected = reconcile_issue(issue["body"], repos, START, END)
+    updated_issue, joint_selected = reconcile_issue(updated_issue, joint_repos, JOINT_START, JOINT_END)
     if updated_issue != issue["body"]:
         api(f"/repos/{PROFILE_REPO}/issues/{ISSUE_NUMBER}", "PATCH", {"body": updated_issue})
     readme_path = root / "README.md"
     readme = readme_path.read_text(encoding="utf-8")
-    updated_readme = replace_featured(readme, render_cards(selected, repos, root))
+    featured = render_cards(selected, repos, root, OWNER)
+    if joint_selected:
+        featured += render_cards(joint_selected, joint_repos, root, JOINT_OWNER)
+    updated_readme = replace_featured(readme, featured)
     if updated_readme != readme:
         readme_path.write_text(updated_readme, encoding="utf-8")
-    print(f"Found {len(repos)} public projects; displaying {len(selected)} cards")
+    print(f"Displaying {len(selected)} personal and {len(joint_selected)} collaborative cards")
 
 
 if __name__ == "__main__":
