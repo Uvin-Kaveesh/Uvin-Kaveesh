@@ -16,6 +16,10 @@
 
 ## Featured projects <a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Manage featured projects"><img src="./assets/selector-dot.svg" alt="Manage featured projects" width="10" height="10" /></a>
 
+<p align="center">
+  <a href="https://github.com/Uvin-Kaveesh/LeoLoom"><img src="./assets/project-previews/leoloom-smooth.gif" alt="LeoLoom project preview" width="48%" /></a>
+</p>
+
 ## Tools and technologies
 
 **Programming and web:** Java, JavaScript, TypeScript, HTML, CSS, Spring Boot, REST APIs  
