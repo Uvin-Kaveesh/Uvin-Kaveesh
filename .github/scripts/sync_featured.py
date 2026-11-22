@@ -121,11 +121,11 @@ def render_cards(selected, repos, root):
     intro = ('## Featured projects '
              '<a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Manage featured projects">'
              '<img src="./assets/selector-dot.svg" alt="Manage featured projects" width="10" height="10" /></a>')
-    return intro + ("\n\n" + "\n\n".join(rows) if rows else "\n\nNo projects selected yet.") + "\n\n"
+    return intro + ("\n\n" + "\n\n".join(rows) if rows else "") + "\n\n"
 
 
 def replace_featured(readme, section):
-    start = readme.index("## Featured projects\n")
+    start = readme.index("## Featured projects")
     end = readme.index("## Tools and technologies\n", start)
     return readme[:start] + section + readme[end:]
 
