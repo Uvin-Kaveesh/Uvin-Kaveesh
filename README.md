@@ -14,15 +14,11 @@
   <img src="./assets/portfolio.svg" alt="Portfolio link coming soon" title="Portfolio link coming soon" width="32" height="32" />
 </p>
 
-## Featured projects <a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Manage featured projects"><img src="./assets/selector-dot.svg" alt="Manage featured projects" width="10" height="10" /></a>
+## Featured projects <a href="https://github.com/Uvin-Kaveesh/Uvin-Kaveesh/issues/1" title="Choose project cards"><img src="./assets/selector-dot.svg" alt="Choose project cards" width="10" height="10" /></a>
 
 <p align="center">
   <a href="https://github.com/Uvin-Kaveesh/CSE-AGM"><img src="./assets/project-previews/cse_agm-smooth.gif" alt="CSE-AGM project preview" width="48%" /></a>
   <a href="https://github.com/Uvin-Kaveesh/LeoLoom"><img src="./assets/project-previews/leoloom-smooth.gif" alt="LeoLoom project preview" width="48%" /></a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Uvin-Kaveesh/Digital_Thermometer"><img src="./assets/project-previews/thermometer-smooth.gif" alt="Digital_Thermometer project preview" width="48%" /></a>
 </p>
 
 ## Tools and technologies
