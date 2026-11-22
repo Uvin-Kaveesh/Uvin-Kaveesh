@@ -53,7 +53,8 @@ def public_repos(owner):
     repos = {}
     page = 1
     while True:
-        batch = api(f"/users/{owner}/repos?type=owner&per_page=100&page={page}")
+        path = f"/orgs/{owner}/repos?type=public" if owner == JOINT_OWNER else f"/users/{owner}/repos?type=owner"
+        batch = api(f"{path}&per_page=100&page={page}")
         for repo in batch:
             if repo["name"] != owner and not repo["private"] and not repo["fork"] and not repo["archived"]:
                 repos[repo["name"]] = repo
