@@ -21,6 +21,15 @@
   <a href="https://github.com/Uvin-Kaveesh/LeoLoom"><img src="./assets/project-previews/leoloom-smooth.gif" alt="LeoLoom project preview" width="48%" /></a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/Uvin-Kaveesh/Digital_Thermometer"><img src="./assets/project-previews/thermometer-smooth.gif" alt="Digital_Thermometer project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/SignalForge"><img src="./assets/project-previews/signalforge-smooth.gif" alt="SignalForge project preview" width="48%" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Uvin-Kaveesh/BCD-Arithmetic-Mini-Processor"><img src="./assets/project-previews/bcd-smooth.gif" alt="BCD-Arithmetic-Mini-Processor project preview" width="48%" /></a>
+</p>
+
 ## Tools and technologies
 
 **Programming and web:** Java, JavaScript, TypeScript, HTML, CSS, Spring Boot, REST APIs  
