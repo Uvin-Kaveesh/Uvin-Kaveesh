@@ -28,6 +28,7 @@
 
 <p align="center">
   <a href="https://github.com/Uvin-Kaveesh/BCD-Arithmetic-Mini-Processor"><img src="./assets/project-previews/bcd-smooth.gif" alt="BCD-Arithmetic-Mini-Processor project preview" width="48%" /></a>
+  <a href="https://github.com/Uvin-Kaveesh/PAPI-Based-Automated-Flight-Landing-System"><img src="./assets/project-previews/papi-smooth.gif" alt="PAPI-Based-Automated-Flight-Landing-System project preview" width="48%" /></a>
 </p>
 
 ## Tools and technologies
